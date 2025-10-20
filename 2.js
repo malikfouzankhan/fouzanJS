@@ -40,4 +40,5 @@ console.log(shortName, fullName, age)
 
 console.log("My name is " + fullName + ". My age is " + age)
 
-console.log(`My name is ${fullName}.\nMy age is ${age}.`)
+// `` ==> backticks or template literals
+console.log(`My name is ${fullName}.\nMy age is ${age}. I am from ${college}. My mobile number is ${phone}. My address is ${address}. My favorite food is ${favFood}.`)
