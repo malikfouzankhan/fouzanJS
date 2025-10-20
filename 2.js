@@ -35,3 +35,9 @@ console.log(address)
 
 var favFood = `Biryani, Tahari, Mandi`
 console.log(favFood)
+
+console.log(shortName, fullName, age)
+
+console.log("My name is " + fullName + ". My age is " + age)
+
+console.log(`My name is ${fullName}.\nMy age is ${age}.`)
