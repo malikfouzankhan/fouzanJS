@@ -5,10 +5,10 @@
 --> Outside function    ❌      ❌      ❌
 
 */
+hello()
 
 function hello()
 {
     const me = 21
     console.log(me);
 }
-console.log(me);
