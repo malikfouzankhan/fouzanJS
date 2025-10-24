@@ -1,16 +1,15 @@
 // Control Statements
 
 /*
-    -> if else statements
-        - if...else is used to run the code conditionally - only when a specific expression evaluates to "TRUE".
+    -> Conditional Statements
+      --if else statements
+          - if...else is used to run the code conditionally - only when a specific expression evaluates to "TRUE".
 
-        - There are 3 types of if...else statements
-            1. if statement
-            2. if...else statement
-            3. if...else if...else statement
-
+          - There are 3 types of if...else statements
+              1. if statement
+              2. if...else statement
+              3. if...else if...else statement
 */
-
 let age = 19;
 if (age > 18) {
   console.log("Daaru pi miyan!!");
