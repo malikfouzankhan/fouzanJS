@@ -15,3 +15,4 @@ let hello = ()=>{
 hello(); // initialization error
 
 console.log(b); // not defined error
+
