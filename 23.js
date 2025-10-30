@@ -101,3 +101,8 @@ How to do it:
         return n1 + n2;
     }
     console.log(add(10, 20));
+
+    // IIFE Immediately Invoked Function Expression
+    (()=>{
+        //#code;
+    }) ();
