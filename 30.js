@@ -17,4 +17,23 @@
 
 // 14. sort() method
     let arr4 = [10,9,8,7,6,5,4,3,2,1];
-    console.log(arr4.sort());
+    console.log(arr4.sort((a,b) => a - b));
+    // sorts the array in place when a - b for ascending order and b - a for descending order
+
+// 15. flat() method
+    let arr5 = ["hello","hi",["bye","test"],"ok"];
+    console.log(arr5.flat());
+    // converts multi dimensional array into single dimensional array
+
+// 16. Array.of() method
+    let output = Array.of("hi",["hello",21],12,54,false);
+    console.log(output);
+    // creates an array with the given arguments
+
+// every()
+// find()
+// findIndex()
+// forEach()
+// map()
+// reduce()
+// reduceRight()
