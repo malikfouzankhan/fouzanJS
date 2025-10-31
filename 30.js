@@ -53,8 +53,8 @@
 
 // 20. forEach()
     let arr9 = ["kaif","saboor","rayyan","kamran"];
-    arr9.forEach((names) => {
-        console.log(names);
+    arr9.forEach((x) => {
+        console.log(x);
     })
     // executes a function for each element
     // return value : undefined 
