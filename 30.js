@@ -30,10 +30,40 @@
     console.log(output);
     // creates an array with the given arguments
 
-// every()
-// find()
-// findIndex()
-// forEach()
+// 17. every() method
+    let arr6 = [2,4,6,8];
+    console.log(arr6.every((x) => x > 2));
+
+    // (x) => x > 2 === (x) => {return x > 2} === function test(x) {return x > 2} === text(x) => x > 2
+
+    // checks if every element in the array passes a test (returns true/false)
+    // Returns true if all elements pass the condition, otherwise false
+
+// 18. find() method
+    let arr7 = [2,3,5,6,7,8,9];
+    console.log(arr7.find((x) => x % 4 == 0));
+    // returns the first element that satisfies a condition.
+    // returns the element itself or undefined if not found
+
+// 19. findIndex() method
+    let arr8 = [2,4,6,8,10];
+    console.log(arr8.findIndex((x) => x % 2 == 0));
+    // returns the index of the first element that satisfies a condition
+    // returns index number or -1 if not found
+
+// 20. forEach()
+    let arr9 = [1,2,3,4,5,6,7,8,9];
+    arr9.forEach((ele) => {
+        console.log(ele);
+    })
+    // executes a function for each element
+    // return value : undefined 
+    // chainable : No
+    // changes original array : No
+    // common use : logging, saving data
+    // forEach Just loops - does not return anything
+
+
 // map()
 // reduce()
 // reduceRight()
