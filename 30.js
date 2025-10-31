@@ -52,9 +52,9 @@
     // returns index number or -1 if not found
 
 // 20. forEach()
-    let arr9 = [1,2,3,4,5,6,7,8,9];
-    arr9.forEach((ele) => {
-        console.log(ele);
+    let arr9 = ["kaif","saboor","rayyan","kamran"];
+    arr9.forEach((names) => {
+        console.log(names);
     })
     // executes a function for each element
     // return value : undefined 
