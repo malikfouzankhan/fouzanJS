@@ -9,4 +9,3 @@ for(let i = 1;i <= 5;i++)
     console.log("row after inner loop\n",row);
 }
 
-// This is try
