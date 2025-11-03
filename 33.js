@@ -46,3 +46,22 @@
     // checks if at least one of the elements in the array passes a test
     // returns true if any one element passes the test and returns false if all fails to pass the test
 
+// 25. reduce() method
+    let arr5 = ['H','E','L','L','O'];
+    console.log(arr5.reduce((acc, cur) => 
+    {
+        return acc + cur;
+    }, ""));
+    // runs a function on each element of an array to reduce it to a single value(like sum, product or combined result)
+    // It has 3 parameters by default
+    // 1. accumulator -> stores the previous step
+    // 2. currentValue -> current array element
+    // 3. initialValue -> starting value
+
+// 26. reduceRight() method
+    let arr6 = ['H','E','L','L','O'];
+    console.log(arr5.reduceRight((acc, cur) => 
+    {
+        return acc + cur;
+    }, ""));
+    // same as reduce() method but does the job from end to start
