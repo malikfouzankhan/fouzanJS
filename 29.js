@@ -28,7 +28,7 @@
     console.log(arr1.lastIndexOf(10));
     // returns index of the given argument from the back and returns -1 if the value does not exist
 
-// 6. length() property
+// 6. length property
     let arr2 = [1,2,3,4,5,6];
     console.log(arr2.length);
     // returns the count of total number of elements

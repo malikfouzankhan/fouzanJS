@@ -62,8 +62,3 @@
     // changes original array : No
     // common use : logging, saving data
     // forEach Just loops - does not return anything
-
-
-// map()
-// reduce()
-// reduceRight()
