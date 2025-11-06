@@ -1,6 +1,9 @@
-// throw in JS
-
+// Ternary operator
 /*
-the throw statement is used to manually create (raise) an error in JS. When you "throw" something, you're saying:
-"Stop everything! Something went wrong"
+It's a shortcut for writing if...else statements - all in one line.
+
+Syntax : 
+    condition ? ifTrue : ifFalse
 */
+
+15 > 10 ? console.log("nice") : console.log("not nice");
