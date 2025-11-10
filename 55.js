@@ -1,5 +1,6 @@
 // JSON methods in JavaScript
 
+
 /*
 JavaScript provides two main global methods under the JSON object:
     1. JSON.stringify()
