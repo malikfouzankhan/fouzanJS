@@ -5,6 +5,11 @@
         "isAlive" : true
     },
     {
+        "name" : "Malik",
+        "age" : 21,
+        "isAlive" : true
+    },
+    {
         "name" : "Suhail",
         "age" : 23,
         "isAlive" : true
