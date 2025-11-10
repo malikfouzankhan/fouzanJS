@@ -30,8 +30,6 @@ const timer = setInterval(() => {
   if (count == 5) {
     clearInterval(timer);
     console.log("stopped");
-    let a = 10;
-    console.log("This is after clearInterval", a);
   }
 }, 0o500);
 
